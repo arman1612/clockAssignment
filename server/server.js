@@ -6,7 +6,7 @@ import GoogleStrategy from "passport-google-oauth2";
 import session from "express-session";
 import 'dotenv/config';
 const app=express();
-const port =8080;
+const port = process.env.PORT || 8080;
 
 app.use(
   session({
