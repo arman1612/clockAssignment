@@ -1,0 +1,140 @@
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 21rem;
+    height: 38rem;
+    border: 1px solid white;
+    margin: 38px auto;
+    padding: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login h2{
+    top: 76px;
+    left: 24px;
+    gap: 8px; 
+    font-weight: 600;
+    color: #101010;
+}
+
+.login h5{
+    line-height: 20px;
+    color:  #878787;
+    font-weight: 500;
+}
+
+.input-fields{
+    margin-top: 10%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+}
+
+.form-group input{
+    margin: 8px 0px;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    padding: 16px;
+    gap: 8px;
+}
+.form-group label{
+   font-weight: 500;
+}
+
+.eyeicon{
+   position: relative;
+   left: 16.4rem;
+   top: -2rem;
+   cursor: pointer;
+}
+
+.forgetPassword{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FE8C00;
+  margin-left: 12rem;
+  cursor: pointer;
+}
+
+
+.submit{
+    margin-top: 2rem;
+    padding: 16px;
+    width: 19rem;
+    border-radius:25px;
+    background-color: #FE8C00;
+    color: white;
+    font-weight: 600;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EDEDED;
+    cursor: pointer;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+.line {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+  
+.separator span {
+    margin: 0 10px;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.register{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+#register{
+    color: #FE8C00;
+    cursor: pointer;
+}
+
+.register a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#forgetPassword{
+    text-decoration: none;
+    
+}
