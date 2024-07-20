@@ -19,7 +19,7 @@ const Register = () => {
   
       event.preventDefault();
       try {
-        const register=await axios.post("http://localhost:8080/register",{email,password,userName});
+        const register=await axios.post("https://clockassignment-2.onrender.com/register",{email,password,userName});
 
         if(register.data.success){
           toast.success("Registration Successfull !", {
@@ -44,7 +44,7 @@ const Register = () => {
   }
    
   function handleGoogleLogin(){
-    window.location.href='http://localhost:8080/auth/google';
+    window.location.href='https://clockassignment-2.onrender.com/auth/google';
   }
 
   function handletoggle(){
