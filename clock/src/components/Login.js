@@ -25,13 +25,13 @@ const Login = () => {
   }
   
   function handleGoogleLogin(){
-    window.location.href='http://localhost:8080/auth/google';
+    window.location.href='https://clockassignment-2.onrender.com/auth/google';
   }
 
   async function handleSubmit(e){
      e.preventDefault();
      try {
-       const login= await axios.post("http://localhost:8080/login",{email,password});
+       const login= await axios.post("https://clockassignment-2.onrender.com/login",{email,password});
        
        if(login.data.success){
         toast.success("Login Successfull !", {
