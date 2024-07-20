@@ -24,13 +24,13 @@ To start the project locally, you need to run both the frontend and backend serv
 ### Frontend Setup
 
 Open a terminal and navigate to the `clock` directory:
-cd clock
-npm install
-npm start
+- cd clock
+- npm install
+- npm start
 
 ### Backend Setup
 
 Open second terminal and navigate to the `server` directory:
-cd server
-npm install
-nodemon server.js
+- cd server
+- npm install
+- nodemon server.js
